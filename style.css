@@ -1,0 +1,41 @@
+body{
+    margin: auto;
+    width: 50%;
+    padding: 2em;
+    font-family: 'Ranade', sans-serif;
+    background-color: #10100e;
+    color: #ffffe3;
+}
+button, input{
+    background-color: #ffffe3;
+    color: #10100e;
+    font-family: 'Ranade', sans-serif;
+}
+h1{
+    font-family: 'Excon', sans-serif;
+}
+#todos{
+    background-color: #191815;
+}
+.notShow{
+    display: none;
+}
+.markedTodo{
+    text-decoration: line-through;
+}
+.todoItemDiv{
+    display: flex;
+    align-items: flex-start;
+    margin: 1px;
+}
+
+.todoItemDiv span{
+    flex: 5 auto;
+}
+
+.todoItemDiv input{
+    flex: 1 auto;
+}
+
+
+
